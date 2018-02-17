@@ -1,0 +1,96 @@
+/*CSS FILE
+Author: Ahraf
+Version:1.o */
+
+html{
+	background:url("lib.jpg") no-repeat center center fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.header{
+	width:100%;
+	height:130px;
+	
+}
+
+#sidebar{
+  position:fixed;
+  width:200px;
+  height:100%;
+  background-color:black;
+  right:-200px;
+  transition:all 500ms linear;
+  opacity:.8;
+}
+#sidebar.active{
+  right:0px;
+}
+#sidebar ul li{
+  color:rgba(230,230,230,0.9);
+  list-style:none;
+  padding:15px 10px;
+  border-bottom:1px solid rgba(100,100,100,0.3);
+}
+#sidebar .toggle-btn{
+  position:absolute;
+  right:230px;
+  top:15px;
+}
+#sidebar .toggle-btn span{
+  display:block;
+  width:50px;
+  height:10px;
+  background: #ffeee6;
+  margin:9px 0px;
+}
+
+
+.icn{
+	height:85px;
+	margin-top:20px;
+}
+.content{
+	width:100%;
+	height:450px;
+	
+}
+.lcont{
+	width:30%;
+	height:450px;
+	float:left;
+	
+	
+}
+.sicn{
+	width:300px;
+	height:300px;
+	float:left;
+	margin-left:50px;
+	margin-top:70px;
+}
+
+.rcont{
+	width:30%;
+	height:450px;
+	float:right;
+	
+}
+.ticn{
+	width:300px;
+	height:300px;
+	float:right;
+	margin-right:60px;
+	margin-top:50px;
+}
+
+.footer{
+	width:100%;
+	height:75px;
+}
+
+h2{
+	color:white;
+}
+h1{
+ color:blue;
+}
